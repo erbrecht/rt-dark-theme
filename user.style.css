@@ -5,6 +5,7 @@
 @description    Dark theme for RT
 @author         erbrecht
 @updateURL      https://raw.githubusercontent.com/erbrecht/rt-dark-theme/main/user.style.css
+@preprocessor   stylus
 ==/UserStyle== */
 
 @-moz-document domain("tickets.irt.drexel.edu") {
