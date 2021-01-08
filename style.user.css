@@ -95,6 +95,20 @@
         background-color: #292929 !important;
     }
     
+    div.results .titlebox-title .left {
+        border: none;
+        background: #547CCC;
+        background: #547CCC !important;
+        color: #dfdfdf;
+    }
+    
+    div.results .titlebox-content {
+        border: none;
+        border-bottom: none;
+        border-right: none;
+        padding: 1px;
+        background: #547CCC;
+    }
     
     .ticket-summary .titlebox .titlebox-title .left,
     .ticket-summary .titlebox .titlebox-title .left a,
