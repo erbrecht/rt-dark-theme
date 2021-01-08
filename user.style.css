@@ -1,0 +1,232 @@
+/* ==UserStyle==
+@name           RT Dark Theme
+@namespace      github.com/erbrecht/rt-dark
+@version        1.0.0
+@description    Dark theme for RT
+@author         erbrecht
+==/UserStyle== */
+
+@-moz-document domain("tickets.irt.drexel.edu") {
+    body {
+        background: none;
+        background-color: #292929 !important;
+        color: #dfdfdf !important;
+    }
+    
+    div#quickbar {
+        border-bottom-color: #121212;
+        background-color: #292929;
+    }
+    
+    div#body {
+        background-color: #121212 !important;
+        border: none;
+        margin-right: 1em;
+    }
+    
+    div.login-body {
+        width: 75% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        border-radius: 1em;
+    }
+    
+    .login-body .titlebox .titlebox-title .left,
+    .login-body .titlebox .titlebox-title .left a {
+        padding-bottom: 0px;
+        background: #121212 !important;
+    }
+    
+    #login-box .button-row {
+        margin-top: 1em;
+    }
+    
+    div#footer {
+        background-color: #292929;
+    }
+    
+    a,
+    #main-navigation .sf-menu a, #main-navigation .sf-menu a:hover,
+    #page-navigation .sf-menu a, #page-navigation .sf-menu a:hover, #page-navigation .sf-menu a:visited,
+    span.label, .button, input[type="submit"], input[class="button"] {
+        color: #dfdfdf;
+    }
+    
+    #page-navigation .sf-menu li.active > .menu-item {
+        color: #050505;
+    }
+    
+    a:visited {
+        color: #aaabbb;
+    }
+    
+    .button, input[type="submit"], input[class="button"] {
+        background-color: #547CCC;
+        border-color: #4868B3;
+    }
+    
+    .button:hover, input.button:hover, button:hover, input[type="reset"]:hover, input[type="submit"]:hover, input[class="button"]:hover {
+        background: #3D5B9D;
+    }
+    
+    .titlebox .titlebox-title .left, .titlebox .titlebox-title .left a {
+        color: #547ccc;
+    }
+    
+    .titlebox .titlebox-title .left {
+        border-right: none;
+    }
+    
+    /*.ticket-info-links .titlebox .titlebox-title .left,
+    .ticket-info-merge .titlebox .titlebox-title .left,
+    .ticket-info-dates .titlebox .titlebox-title .left,
+    .ticket-info-cfs .titlebox .titlebox-title .left,
+    .ticket-info-basics .titlebox .titlebox-title .left,
+    .ticket-info-squelch .titlebox .titlebox-title .left,
+    .ticket-info-people .titlebox .titlebox-title .left,
+    .history.ticket .titlebox .titlebox-title .left,
+    .summary .titlebox .titlebox-title .left,
+    .unread-messages .titlebox .titlebox-title .left,
+    .boxcontainer .titlebox .titlebox-title .left,*/
+    .titlebox .titlebox-title .left,
+    .titlebox .titlebox-title .left a {
+        background-color: #292929 !important;
+    }
+    
+    
+    .ticket-summary .titlebox .titlebox-title .left,
+    .ticket-summary .titlebox .titlebox-title .left a,
+    .ticket-summary .titlebox .titlebox-title .left a:visited {
+        background-color: #121212;
+    }
+    
+    .sf-menu li, .sf-menu li li, .sf-menu li li li {
+        background-color: #292929;
+    }
+    
+    .sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+        background: #121212;
+        outline: 0;
+    }
+    
+    .sf-menu a {
+        border-left-color: #121212 !important;
+    }
+    
+    #main-navigation li li a {
+        border-top-color: #121212 !important;
+    }
+    
+    #li-page-edit {
+        margin-right: 1.1em;
+        margin-top: 0.1em;
+    }
+    
+    #page-menu.pinned {
+        right: 1em;
+        border-radius: 0 0 5px 5px;
+        -webkit-border-radius: 0 0 5px 5px;
+    }
+    
+    #page-navigation .sf-menu li, #page-navigation .sf-menu li li, #page-navigation .sf-menu li li li {
+        background-color: #292929;
+    }
+    
+    #page-navigation .sf-menu li:hover,
+    #page-navigation .sf-menu li.sfHover,
+    #page-navigation .sf-menu a:focus,
+    #page-navigation .sf-menu a:hover,
+    #page-navigation .sf-menu a:active {
+        background: #3D5B9D;
+        outline: 0;
+    }
+    
+    .titlebox .titlebox-content {
+        border: none;
+        background-color: #292929;
+    }
+    
+    .titlebox .titlebox .titlebox-content {
+        background-color: #121212;
+    }
+    
+    table.collection-as-table {
+        border-color: #dfdfdf;
+    }
+    
+    table.collection-as-table th.collection-as-table {
+        background: #121212;
+    }
+    
+    tr.oddline td {
+        background: #2C3034;
+    }
+    
+    tr.evenline td {
+        background: #212529;
+    }
+    
+    .transaction.odd {
+        background-color: #2C3034;
+    }
+    
+    .transaction.even {
+        background-color: #212529;
+    }
+    
+    .titlebox .titlebox-title .right a,
+    .titlebox .titlebox-title .right a:visited,
+    .transaction div.metadata span.actions a,
+    .transaction div.metadata span.actions a:visited,
+    .transaction div.downloadattachment,
+    .transaction div.downloadattachment a,
+    .transaction div.downloadattachment a:visited {
+        color: #292929
+    }
+    
+    .message-stanza {
+        color: #dfdfdf;
+    }
+    
+    .message-stanza-folder.open {
+        color: #909090;
+    }
+    
+    .message-stanza .message-stanza,
+    .message-stanza-folder.closed {
+        color: #547CCC;
+    }
+    
+    .message-stanza .message-stanza .message-stanza {
+        color: #A454CC;
+    }
+    
+    .message-stanza .message-stanza .message-stanza .message-stanza {
+        color: #547CCC;
+    }
+    
+    .message-stanza .message-stanza .message-stanza .message-stanza .message-stanza {
+        color: #A454CC;
+    }
+    
+    .message-stanza .message-stanza .message-stanza .message-stanza .message-stanza .message-stanza {
+        color: #547CCC;
+    }
+    
+    .transaction.message .type {
+        background: #4868B3;
+    }
+    
+    .transaction.people .type {
+        background: #547CCC;
+    }
+    
+    .transaction.links .type {
+        background: #A454CC;
+    }
+    
+    .messagebox-container.action-response textarea,
+    .messagebox-container.action-response iframe {
+        background-color: #dfdfdf !important;
+    }
+}
