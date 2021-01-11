@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           RT Dark Theme
 @namespace      github.com/erbrecht/rt-dark
-@version        1.0.1
+@version        1.0.2
 @description    Dark theme for RT
 @author         erbrecht
 @updateURL      https://raw.githubusercontent.com/erbrecht/rt-dark-theme/main/style.user.css
@@ -112,7 +112,7 @@
     .ticket-summary .titlebox .titlebox-title .left,
     .ticket-summary .titlebox .titlebox-title .left a,
     .ticket-summary .titlebox .titlebox-title .left a:visited {
-        background-color: #121212;
+        background-color: #121212 !important;
     }
     
     .sf-menu li, .sf-menu li li, .sf-menu li li li {
