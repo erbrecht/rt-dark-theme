@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           RT Dark Theme
 @namespace      github.com/erbrecht/rt-dark
-@version        1.0.4
+@version        1.0.6
 @description    Dark theme for RT
 @author         erbrecht
 @updateURL      https://raw.githubusercontent.com/erbrecht/rt-dark-theme/main/style.user.css
@@ -48,6 +48,8 @@
     }
     
     a,
+    .more-about-requestor-tickets .ui-tabs-panel,
+    .more-about-requestor-tickets .ui-tabs-panel a,
     .more-about-requestor-tickets .ui-tabs-nav a,
     .user-accordion .ui-accordion-content,
     #main-navigation .sf-menu a, #main-navigation .sf-menu a:hover,
