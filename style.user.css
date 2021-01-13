@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           RT Dark Theme
 @namespace      github.com/erbrecht/rt-dark
-@version        1.0.2
+@version        1.0.3
 @description    Dark theme for RT
 @author         erbrecht
 @updateURL      https://raw.githubusercontent.com/erbrecht/rt-dark-theme/main/style.user.css
@@ -48,10 +48,11 @@
     }
     
     a,
+    .more-about-requestor-tickets .ui-tabs-nav a,
     #main-navigation .sf-menu a, #main-navigation .sf-menu a:hover,
     #page-navigation .sf-menu a, #page-navigation .sf-menu a:hover, #page-navigation .sf-menu a:visited,
     span.label, .button, input[type="submit"], input[class="button"] {
-        color: #dfdfdf;
+        color: #dfdfdf !important;
     }
     
     #page-navigation .sf-menu li.active > .menu-item {
