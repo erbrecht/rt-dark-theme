@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           RT Dark Theme
 @namespace      github.com/erbrecht/rt-dark
-@version        1.0.7
+@version        1.0.8
 @description    Dark theme for RT
 @author         erbrecht
 @updateURL      https://raw.githubusercontent.com/erbrecht/rt-dark-theme/main/style.user.css
@@ -56,11 +56,6 @@
     #page-navigation .sf-menu a, #page-navigation .sf-menu a:hover, #page-navigation .sf-menu a:visited,
     span.label, .button, input[type="submit"], input[class="button"] {
         color: #dfdfdf !important;
-    }
-    
-    .titlebox .titlebox-title .right a,
-    .titlebox .titlebox-title .right a:visited {
-        color: #000 !important;
     }
     
     #page-navigation .sf-menu li.active > .menu-item {
@@ -205,7 +200,7 @@
     .transaction div.downloadattachment,
     .transaction div.downloadattachment a,
     .transaction div.downloadattachment a:visited {
-        color: #292929
+        color: #292929 !important;
     }
     
     .message-stanza {
