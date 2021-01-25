@@ -248,4 +248,8 @@
     .messagebox-container.action-response iframe {
         background-color: #dfdfdf !important;
     }
+    
+    .ui-autocomplete > .ui-menu-item > a {
+       color: #121212 !important;
+    }
 }
